@@ -1,0 +1,199 @@
+{
+  "source": "Cricsheet all T20 JSON archive",
+  "feature_names": [
+    "runs_needed",
+    "balls_remaining",
+    "wickets_remaining",
+    "target",
+    "current_run_rate",
+    "required_run_rate"
+  ],
+  "skipped_matches": {
+    "unsupported_match": 615,
+    "revised_target": 17,
+    "inconsistent_result": 4
+  },
+  "train": {
+    "accuracy": 0.8413849968560547,
+    "log_loss": 0.33312960912918943,
+    "brier_score": 0.1077732038247792,
+    "calibration_bins": [
+      {
+        "predicted_mean": 0.0325,
+        "observed_win_rate": 0.0221,
+        "n": 93020
+      },
+      {
+        "predicted_mean": 0.1466,
+        "observed_win_rate": 0.156,
+        "n": 31743
+      },
+      {
+        "predicted_mean": 0.2482,
+        "observed_win_rate": 0.2405,
+        "n": 24122
+      },
+      {
+        "predicted_mean": 0.3498,
+        "observed_win_rate": 0.3558,
+        "n": 19024
+      },
+      {
+        "predicted_mean": 0.4501,
+        "observed_win_rate": 0.4556,
+        "n": 17246
+      },
+      {
+        "predicted_mean": 0.5493,
+        "observed_win_rate": 0.5374,
+        "n": 20446
+      },
+      {
+        "predicted_mean": 0.6496,
+        "observed_win_rate": 0.6249,
+        "n": 16899
+      },
+      {
+        "predicted_mean": 0.7508,
+        "observed_win_rate": 0.73,
+        "n": 17578
+      },
+      {
+        "predicted_mean": 0.8531,
+        "observed_win_rate": 0.8307,
+        "n": 22573
+      },
+      {
+        "predicted_mean": 0.9716,
+        "observed_win_rate": 0.9774,
+        "n": 74505
+      }
+    ],
+    "states": 337156,
+    "matches": 3066,
+    "date_min": "2005-02-17",
+    "date_max": "2024-06-21"
+  },
+  "validation": {
+    "accuracy": 0.8494064452906742,
+    "log_loss": 0.3247162139683788,
+    "brier_score": 0.10357488069338547,
+    "calibration_bins": [
+      {
+        "predicted_mean": 0.0307,
+        "observed_win_rate": 0.0128,
+        "n": 33405
+      },
+      {
+        "predicted_mean": 0.1476,
+        "observed_win_rate": 0.1046,
+        "n": 9878
+      },
+      {
+        "predicted_mean": 0.249,
+        "observed_win_rate": 0.2139,
+        "n": 7672
+      },
+      {
+        "predicted_mean": 0.3493,
+        "observed_win_rate": 0.3253,
+        "n": 6444
+      },
+      {
+        "predicted_mean": 0.4498,
+        "observed_win_rate": 0.4327,
+        "n": 5419
+      },
+      {
+        "predicted_mean": 0.5494,
+        "observed_win_rate": 0.5049,
+        "n": 6253
+      },
+      {
+        "predicted_mean": 0.6512,
+        "observed_win_rate": 0.5915,
+        "n": 5261
+      },
+      {
+        "predicted_mean": 0.7529,
+        "observed_win_rate": 0.7012,
+        "n": 5716
+      },
+      {
+        "predicted_mean": 0.8521,
+        "observed_win_rate": 0.7881,
+        "n": 8071
+      },
+      {
+        "predicted_mean": 0.973,
+        "observed_win_rate": 0.9535,
+        "n": 28214
+      }
+    ],
+    "states": 116333,
+    "matches": 1064,
+    "date_min": "2024-06-22",
+    "date_max": "2025-09-19"
+  },
+  "test": {
+    "accuracy": 0.8550528613619827,
+    "log_loss": 0.30501187673606867,
+    "brier_score": 0.09810464269817351,
+    "calibration_bins": [
+      {
+        "predicted_mean": 0.0307,
+        "observed_win_rate": 0.0156,
+        "n": 36363
+      },
+      {
+        "predicted_mean": 0.1456,
+        "observed_win_rate": 0.1133,
+        "n": 10156
+      },
+      {
+        "predicted_mean": 0.2496,
+        "observed_win_rate": 0.2324,
+        "n": 7406
+      },
+      {
+        "predicted_mean": 0.3492,
+        "observed_win_rate": 0.3095,
+        "n": 5899
+      },
+      {
+        "predicted_mean": 0.4494,
+        "observed_win_rate": 0.3667,
+        "n": 5192
+      },
+      {
+        "predicted_mean": 0.5487,
+        "observed_win_rate": 0.437,
+        "n": 6018
+      },
+      {
+        "predicted_mean": 0.6501,
+        "observed_win_rate": 0.5649,
+        "n": 5022
+      },
+      {
+        "predicted_mean": 0.7514,
+        "observed_win_rate": 0.6764,
+        "n": 5664
+      },
+      {
+        "predicted_mean": 0.853,
+        "observed_win_rate": 0.7952,
+        "n": 7412
+      },
+      {
+        "predicted_mean": 0.9731,
+        "observed_win_rate": 0.9698,
+        "n": 27683
+      }
+    ],
+    "states": 116815,
+    "matches": 1083,
+    "date_min": "2025-09-20",
+    "date_max": "2026-11-01"
+  }
+}

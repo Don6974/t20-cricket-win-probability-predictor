@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "t20-win-probability"
+version = "0.1.0"
+description = "Leakage-aware T20 second-innings win probability portfolio project"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
