@@ -1,10 +1,16 @@
 from pathlib import Path
+import sys
 
 import joblib
 import pandas as pd
 import streamlit as st
 
+from sklearn._loss import _loss as sklearn_loss
 from t20predict.features import FEATURES
+
+# Compatibility fix for the serialized scikit-learn model.
+sys.modules.setdefault("_loss", sklearn_loss)
+
 
 st.set_page_config(page_title="T20 Chase Win Probability", page_icon="🏏", layout="centered")
 st.title("🏏 T20 Live Chase Win Probability")
