@@ -1,6 +1,14 @@
 # 🏏 T20 Cricket Live Win Probability Predictor
 
-**Author:** Sugandhika Dontha · MSc Sports Performance Analysis · Cricket Analyst
+**Author:** Sugandhika Dontha · Cricket Analyst
+
+[Try the T20 Live Win Probability Predictor](https://dontha-t20-predictor.streamlit.app/)
+
+Enter the target, current runs, completed overs,
+balls and wickets to estimate the chasing team's
+win probability.
+
+[View Source Code](https://github.com/Don6974/t20-cricket-win-probability-predictor)
 
 An end-to-end Python portfolio project estimating the probability that the **team batting second** wins a standard 20-over T20 match from its **current post-delivery state**. Includes a reproducible Cricsheet data pipeline, chronological out-of-sample evaluation, unit tests and an interactive Streamlit demonstration.
 
@@ -14,8 +22,8 @@ An end-to-end Python portfolio project estimating the probability that the **tea
 - Use Python 3.10+.
 
 ```bash
-git clone <YOUR-GITHUB-REPO-URL>
-cd t20-win-probability
+git clone https://github.com/Don6974/t20-cricket-win-probability-predictor.git
+cd t20-cricket-win-probability-predictor
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements-dev.txt
